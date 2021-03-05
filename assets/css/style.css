@@ -1,0 +1,196 @@
+*{
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+/*--------------------------------------------Fonts*/
+h2, h5 {
+    font-family: "Lato", sans-serif;
+}
+p {
+    font-family: "Roboto", sans-serif;
+}
+.navbar a {
+    font-family: "Lato", sans-serif;
+}
+.callout a {
+    font-family: "Lato", sans-serif;
+}
+
+/*--------------------------------------------Colors*/
+.navbar {
+    background-color: #20B7BE;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav {
+    color: #fafafafa;
+}
+
+.btn-red {
+    background-color: #EA4C68;
+    border-color: #fafafa;
+}
+.btn { 
+    color: #fafafa;
+}
+.btn:hover { 
+    background-color: #fafafa;
+    color: #333B50;
+}
+
+.navbar-text {
+    color: #fafafa;
+}
+
+.custom-toggler, .navbar-toggler { 
+    border-color: #fafafa; 
+} 
+.custom-toggler, .navbar-toggler-icon { 
+            background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250, 250, 250, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+        } 
+
+
+.navbar a {
+    color: #fafafa;
+}
+
+.jumbotron-header {
+    color: #333B50;
+}
+.lead {
+    color: #333B50;
+}
+.jumbotron {
+    background-color: rgba(250, 250, 250, 0.5);
+}
+
+.block-divider-darkgrey {
+    background-color:#333B50;
+}
+
+hr:not([size]) {
+    height: 6px;
+}
+
+.block-divider {
+    width: 75px;
+    border: 0;
+    margin: 0 auto;
+    opacity: 1;
+}
+
+/*--------------------------------------------Navbar*/
+
+.navbar-brand {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item a {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+#navbarSupportedContent {
+    float: left;
+}
+
+.nav-link active { /*--------------------------------------------THIS IS NOT WORKING*/
+    font-weight: bold;
+}
+
+/*--------------------------------------------Callout*/
+.callout-container { 
+  background: url(../images/runner.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 87vh;
+}
+
+.fa-chevron-down {
+    position: relative;
+    bottom: 0;
+}
+
+.jumbotron {
+    padding: 2em 1em;
+    margin-bottom: 2em;
+    border-radius: .3em;
+}
+
+@media screen and (min-width: 960px) {
+  .jumbotron { 
+        max-width: 60%;
+        margin: 0 auto; 
+    }
+}
+
+/*--------------------------------------------Features*/
+
+#features-container {
+    height: 600; /*--------------------------------------------TO BE CORRECTED*/    
+}
+.container-heading {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: red;
+    text-align: right;
+}
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: turquoise;
+    text-align: left;
+}
+
+#center-about {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: yellow;
+}
+
+.left-about-heading {
+    width: 100%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 100%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+/*--------------------------------------------Quotes*/
+
+.quotes-container {
+    
+}
+
+/*--------------------------------------------Charities*/
+
+.charities-container {
+    
+}
+
+/*--------------------------------------------Footer*/
