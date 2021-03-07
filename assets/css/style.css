@@ -4,6 +4,17 @@
   border:0;
 }
 
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    margin: 0 auto;
+    opacity: 1;
+}
+.btn {
+    border-radius: 23px;
+}
+
 /*--------------------------------------------Fonts*/
 h2, h5 {
     font-family: "Lato", sans-serif;
@@ -27,9 +38,10 @@ p {
 }
 
 .btn-red {
-    background-color: #EA4C68;
-    border-color: #fafafa;
+        background-color: #EA4C68;
+        border-color: #fafafa;
 }
+
 .btn { 
     color: #fafafa;
 }
@@ -48,7 +60,7 @@ p {
 .custom-toggler, .navbar-toggler-icon { 
             background-image: url( 
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250, 250, 250, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
-        } 
+} 
 
 
 .navbar a {
@@ -68,17 +80,52 @@ p {
 .block-divider-darkgrey {
     background-color:#333B50;
 }
+.block-divider-orange {
+    background-color:#EA4C68;
+}
 
 hr:not([size]) {
     height: 6px;
 }
 
-.block-divider {
-    width: 75px;
-    border: 0;
-    margin: 0 auto;
-    opacity: 1;
+.fa-chevron-circle-down:before {
+    color: rgba(250, 250, 250, 0.5);
 }
+
+.features-container {
+    background-color: #27D6B3;
+    height: 100%;
+    padding-bottom: 5%;
+}
+
+.features-container h2, .features-container h5, .features-container p {
+    color: #fafafa;
+}
+
+.quotes-container h2 {
+    color:#EA4C68;
+}
+.charities-container {
+    background-color: #27D6B3;
+}
+.charities-container h2 {
+    color: #fafafa;
+}
+
+.footer-text-white {
+    background-color: #fafafa;
+}
+.copyright {
+    background-color: #20B7BE;
+}
+.copyright p, .copyright a {
+    color: #fafafa;
+}
+
+/*----------------------.fa-chevron-circle-down:hover {
+    color: #333B50;  
+}----------------------THIS DOESN'T WORK*/
+
 
 /*--------------------------------------------Navbar*/
 
@@ -113,9 +160,17 @@ hr:not([size]) {
   height: 87vh;
 }
 
-.fa-chevron-down {
-    position: relative;
+.scroller {
+    position: ;
     bottom: 0;
+    margin: 0 auto;
+    padding-top: 23%;
+    padding-left: 50%;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 960px) {
+.scroller { display: none; }
 }
 
 .jumbotron {
@@ -133,36 +188,39 @@ hr:not([size]) {
 
 /*--------------------------------------------Features*/
 
-#features-container {
-    height: 600; /*--------------------------------------------TO BE CORRECTED*/    
-}
 .container-heading {
     margin: 0 auto;
     text-align: center;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding-top: 5%;
+    padding-bottom: 0;
+}
+.container-heading h2 {
+padding-bottom: 1%;
 }
 
-#left-about {
+/* #left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: red;
     text-align: right;
 }
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: turquoise;
     text-align: left;
 }
+*/
 
-#center-about {
-    padding-top: 30px;
-    width: 33%;
+ .my-steps-help-app-image {
+    width: 50%;
+    display: block;
     margin: 0 auto;
-    background-color: yellow;
+    padding-top: 15%;
+}
+
+#app-screenshot {
+    background: url(https://w7.pngwing.com/pngs/309/112/png-transparent-smartphone-app-store-screenshot-cellphone-in-restaurant-gadget-text-mobile-phone.png);
 }
 
 .left-about-heading {
@@ -184,13 +242,58 @@ hr:not([size]) {
 /*--------------------------------------------Quotes*/
 
 .quotes-container {
-    
+    padding-bottom: 5%;
+}
+.quotes-container img {
+    height: 30vh;
+    width: 30vh;
+}
+
+.speech-bubble {
+	position: relative;
+	background: #d0e2e6;
+    border-radius: .4em;
+    padding: 3vh 3vh 3vh 3vh;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 0.938em solid transparent;
+	border-bottom-color: #d0e2e6;
+	border-top: 1vh;
+	margin-left: -0.937em;
+	margin-top: -0.937em;
+}
+.blockquote {
+    margin-top: 7vh;
+}
+.speech-bubble .col-1 {
+    padding-top: 2vh;
 }
 
 /*--------------------------------------------Charities*/
 
 .charities-container {
+    padding-bottom: 5%;
+}
+
+.charities {
+    padding-top: 5%;
+    text-align: center;
     
+}
+
+.charities .row {
+    margin-bottom: 5%;
+}
+
+.charity-image {
+    max-width: 70%;
 }
 
 /*--------------------------------------------Footer*/
