@@ -18,36 +18,57 @@
     border-radius: 23px;
 }
 
+hr:not([size]) {
+    height: 6px;
+}
+
 /*--------------------------------------------Fonts*/
-h2, h5 {
+
+body {
     font-family: "Lato", sans-serif;
 }
+
 p {
     font-family: "Roboto", sans-serif;
 }
+
 .navbar a {
     font-family: "Lato", sans-serif;
 }
+
 .callout a {
     font-family: "Lato", sans-serif;
 }
 
 /*--------------------------------------------Colors*/
+
+/*--- cursor selection modified from: https://css-tricks.com/overriding-the-default-text-selection-color-with-css/*/
+
+::selection {
+  background: #EA4C68;
+}
+::-moz-selection {
+  background: #EA4C68;
+}
+/*--- /.cursor selection modified from: https://css-tricks.com/overriding-the-default-text-selection-color-with-css/*/
+
 .navbar {
     background-color: #20B7BE;
 }
+
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav {
     color: #fafafafa;
 }
 
 .btn-red {
-        background-color: #EA4C68;
-        border-color: #fafafa;
+    background-color: #EA4C68;
+    border-color: #fafafa;
 }
 
 .btn { 
     color: #fafafa;
 }
+
 .btn:hover { 
     background-color: #fafafa;
     color: #333B50;
@@ -59,15 +80,7 @@ p {
 
 .custom-toggler, .navbar-toggler { 
     border-color: #fafafa; 
-} 
-.custom-toggler, .navbar-toggler-icon { 
-            background-image: url( 
-"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250, 250, 250, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
-} 
-
- #nav-button {
-    padding-bottom: 6px !important;
-} 
+}
 
 .navbar a {
     color: #fafafa;
@@ -86,12 +99,9 @@ p {
 .block-divider-darkgrey {
     background-color:#333B50;
 }
+
 .block-divider-orange {
     background-color:#EA4C68;
-}
-
-hr:not([size]) {
-    height: 6px;
 }
 
 .fa-chevron-circle-down:before {
@@ -100,30 +110,38 @@ hr:not([size]) {
 
 .features-container {
     background-color: #27D6B3;
-    height: 100%;
-    padding-bottom: 5%;
 }
 
-.features-container h2, .features-container h5, .features-container p {
+.features-container h2, .features-container h3, .features-container p {
     color: #fafafa;
 }
 
 .quotes-container h2 {
     color:#EA4C68;
 }
+
 .charities-container {
     background-color: #27D6B3;
 }
+
 .charities-container h2 {
     color: #fafafa;
 }
 
+.container-gettheapp {
+    background-color: #27D6B3;
+    color: #fafafa;
+}
+
+
 .footer-text-white {
     background-color: #fafafa;
 }
+
 .copyright {
     background-color: #20B7BE;
 }
+
 .copyright p, .copyright a {
     color: #fafafa;
 }
@@ -131,7 +149,6 @@ hr:not([size]) {
 /*----------------------.fa-chevron-circle-down:hover {
     color: #333B50;  
 }----------------------THIS DOESN'T WORK*/
-
 
 /*--------------------------------------------Navbar*/
 
@@ -150,16 +167,15 @@ hr:not([size]) {
     vertical-align: middle;
 }
 
-/* .nav-item a {
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    vertical-align: middle;
-} */
+#nav-button {
+    padding-bottom: 6px !important;
+} 
 
-.nav-link active { /*--------------------------------------------THIS IS NOT WORKING*/
-    font-weight: bold;
+.custom-toggler, .navbar-toggler-icon { 
+            background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250, 250, 250, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
 }
+
 
 /*--------------------------------------------Callout*/
 .callout-container { 
@@ -200,24 +216,54 @@ hr:not([size]) {
 /*--------------------------------------------Features*/
 
 .container-heading {
-    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    padding-top: 5%;
-    padding-bottom: 0;
-}
-.container-heading h2 {
-    padding-bottom: 1%;
+    padding-bottom: 0;  
 }
 
- .my-steps-help-app-image {
+.container-heading h2 {
+    margin-bottom: 1%;
+}
+
+.features-container h3 {
+    line-height: 1.2;
+}
+
+.features-container {
+    height: 100%;
+    margin-bottom: 5%;
+}
+
+.feature {
+    height: 280px;
+}
+
+@media only screen and (max-width: 768px) {
+  .features-container h3, .features-container p {
+      text-align: center !important;
+  }
+}
+
+.my-steps-help-app-image {
     width: 50%;
     display: block;
-    margin: 0 auto;
-    padding-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
 }
 
 #my-steps-help-app-image {
     margin: 0 auto;
+}
+
+@media only screen and (max-width: 992px) {
+    .my-steps-help-app-image {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
 }
 
 #app-screenshot {
@@ -225,26 +271,21 @@ hr:not([size]) {
 }
 
 .left-about-heading {
-    width: 100%;
-    float: right;
-    line-height: 20px;
-    clear: both;
     margin-bottom: 50px;
+    height: 40px;
 }
 
 .right-about-heading {
-    width: 100%;
-    float: right;
-    line-height: 20px;
-    clear: both;
     margin-bottom: 50px;
+    height: 40px;
 }
 
 /*--------------------------------------------Quotes*/
 
 .quotes-container {
-    padding-bottom: 5%;
+    margin-bottom: 5%;
 }
+
 .quotes-container img {
     height: 30vh;
     width: 30vh;
@@ -270,9 +311,11 @@ hr:not([size]) {
 	margin-left: -0.937em;
 	margin-top: -0.937em;
 }
+
 .blockquote {
     margin-top: 7vh;
 }
+
 .speech-bubble .col-1 {
     padding-top: 2vh;
 }
@@ -282,17 +325,17 @@ hr:not([size]) {
 .charities-container {
     padding-right: 0;
     padding-left: 0;
+    /* margin-bottom: 5%; */
 }
 
 .charities {
-    padding-top: 5%;
-    text-align: center;
-    
+    margin-top: 5%;
+    text-align: center;  
 }
 
-.charities .row {
+ /*.charities .row {
     margin-bottom: 5%;
-}
+} */
 
 .charity-image {
     max-width: 70%;
@@ -300,6 +343,36 @@ hr:not([size]) {
 
 .charity-logo {
     margin-bottom: 5%;
+}
+
+/*--------------------------------------------Get The App*/
+
+.container-gettheapp {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+    .container-gettheapp {
+        text-align: center; 
+    }
+}
+
+.runner-image {
+    height: 40%;
+    width: 40%;
+    background-repeat: no-repeat;
+    padding-top: 1%;
+}
+
+.runner-image img {
+    height: 100%;
+    width: 100%;
+}
+
+#google-play-download-image, #app-store-download-image {
+    width: 200px;
 }
 
 /*--------------------------------------------Footer*/

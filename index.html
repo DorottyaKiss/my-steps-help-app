@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Enter your description here"/>
+<meta name="Description" content="Mobile app to convert running or walking distance into charity donations by choosing from 20+ charities and getting sponsored by employers."/>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -18,7 +18,7 @@
 <header>
     <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-text">
-            <!-- <div class="container-fluid"> --> 
+            <!-- <div class="sticky-top"> --> 
                 <a class="navbar-brand hvr-grow" href="index.html">
                         <img src="assets/images/my_steps_help_white_logo.png" alt="" aria-hidden="true" width="50" height="50" class="d-inline-block align-top"> My Steps Help
                 </a>
@@ -40,7 +40,7 @@
                             <div class="nav-button">
                                 <a class="btn btn-red d-none d-lg-inline-block hvr-grow-shadow" id="nav-button" href="/gettheapp.html">Get The App</a>
                             </div>
-                            <a class="nav-link d-lg-none" href="/gettheapp.html">Get The App</a>
+                            <a class="nav-link d-lg-none hvr-grow" href="/gettheapp.html">Get The App</a>
                         </li>
                     </ul>
                 </div>
@@ -48,7 +48,6 @@
         </nav>
     <!-- /.Navigation Bar -->
 </header>
-
 
  <!--<article class="container"> -->
     <!-- Callout -->
@@ -79,11 +78,11 @@
             <div class="row">
                     <div class="col-12 col-md-6 col-lg-4 text-end order-first">
                         <div class="feature">
-                            <h5 class="left-about-heading fw-bold"><i class="fas fa-running"></i> Log your steps in the app</h5>
+                            <h3 class="left-about-heading fw-bold"><i class="fas fa-running"></i> Log your steps in the app</h3>
                             <p class="mb-5">Ready to move? Why not log your steps in the app and convert them to charity donation money! Our app is compatible with the biggest activity apps such as Strava, Map My Run, or Fitbit. Get ready, set, go!</p>
                         </div>
                         <div class="feature">
-                            <h5 class="left-about-heading fw-bold"><i class="fas fa-hand-holding-heart"></i> Choose from 20+ charities</h5>
+                            <h3 class="left-about-heading fw-bold"><i class="fas fa-hand-holding-heart"></i> Choose from 20+ charities</h3>
                             <p>Find a cause which is close to your heart and convert your steps into charity donations! Be the change in education, wildlife, the environment, human rights, health services and more. No better way to get that feel-good factor at the end of your workout!</p>
                         </div>
                     </div>
@@ -94,33 +93,26 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 text-start order-2 order-lg-3">
                         <div class="feature">
-                            <h5 class="right-about-heading fw-bold"><i class="fas fa-smile-wink"></i> Live a healthier, happier life</h5>
+                            <h3 class="right-about-heading fw-bold"><i class="fas fa-smile-wink"></i> Live a healthier, happier life</h3>
                             <p class="mb-5">Contributing to charities helps you feel bursting out with energy, running and walking gives you that extra kick you need in your day-to-day life! Let’s make the world a better place!</p>
                         </div>
                         <div class="feature">
-                            <h5 class="right-about-heading fw-bold"><i class="fas fa-briefcase"></i> Get sponsored by your employer</h5>
+                            <h3 class="right-about-heading fw-bold"><i class="fas fa-briefcase"></i> Get sponsored by your employer</h3>
                             <p>We’re better together! Join the team of your company and contribute to a common charity goal. So far, we have have contributed over €1 million for charity by employers donating through the app. Top EMEA employers are running the race with you!</p>
                         </div>
                     </div>
-            </div> 
+            </div>
             </div>     
     </div>
     <!-- /.Features -->
     <!-- Quotes -->
     <div class="container quotes-container container-heading">
-        <h2 class="text-uppercase">Our Members Have Said So Far</h2>
+        <h2 class="text-uppercase">You Have Said So Far</h2>
         <hr class="block-divider block-divider-darkgrey">
-        <div class="row d-none d-md-flex">
-            <div class="col-6">
-                <img src="assets/images/richard.jpg" class="img-fluid rounded-circle" alt="Richard portrait">
-            </div>
-            <div class="col-6">
-                <img src="assets/images/emanuele.jpg" class="img-fluid rounded-circle" alt="Emanuele portrait">
 
-            </div>
-        </div>
         <div class="row">
             <div class="col-12 col-md-6">
+                <img src="assets/images/richard.jpg" class="img-fluid rounded-circle" alt="Richard portrait">
                 <blockquote class="blockquote speech-bubble">
                     <div class="row">
                         <div class="col-1">
@@ -133,8 +125,8 @@
                     </div>
                 </blockquote>
             </div>
-
             <div class="col-12 col-md-6">
+                <img src="assets/images/emanuele.jpg" class="img-fluid rounded-circle" alt="Emanuele portrait">
                 <blockquote class="blockquote speech-bubble">
                     <div class="row">
                         <div class="col-1">
@@ -145,14 +137,14 @@
                             <p>Emanuele, Spain</p>
                         </div>
                     </div>
-                </blockquote>
+                </blockquote> 
             </div>
         </div>
     </div>
 
     <!-- /.Quotes -->
     <!-- Charities -->
-    <div class="container-fluid charities-container">
+    <div class="container-fluid charities-container" id="charities-container">
         <div class="container">
             <div class="row">
                 <div class="col-12 container-heading">
@@ -207,7 +199,7 @@
                 </div>
             </div>
         </div>
-    <!--</div> -->
+    </div>
     <!-- /.Charities -->
 <!-- </article> -->
 
@@ -244,8 +236,8 @@
                 <a href="gettheapp.html">Get The App</a>
             </div>
         </div>
-        <p class="copyright">© 2021 Copyright:
-            <a href="index.html" class="hvr-grow">My Steps Help Ltd.</a>
+        <p class="copyright">© 2021 Copyright: 
+            <a href="index.html" class="hvr-grow"> My Steps Help Ltd.</a>
         </p>
     </div>
 </footer>
