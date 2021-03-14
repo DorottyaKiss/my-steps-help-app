@@ -51,21 +51,102 @@
 
  <!--<article class="container"> -->
     <!-- Get In Touch -->
-    <div class="container-fluid contact-container">
-    </div>
+    <div class="container-fluid container-gettheapp">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 container-heading">
+                    <h2 class="text-uppercase">Get In Touch</h2>
+                    <hr class="block-divider block-divider-darkgrey">
+                </div>
+            </div>
+            
+            <div class="row">
+                <!-- <div class="col-12 d-none d-md-block runner-image align-items-center">
+                    <img src="assets/images/runner2.jpg" class="rounded-circle" alt="runner shoes">
+                </div>
+                        -->
+                <div class="col-12 col-md-6">
+                    <h3 class="left-about-heading fw-bold">Smells Like Team Spirit</h3>
+                        <p class="mb-5">We know that team building in the time of COVID-19 can be a real challenge. This is why we created a simple, fast and cost-efficient way to bring your team together while apart.</p> 
+                        <p class="mb-5">Motivate your employees to keep fit and make a positive impact on the world by donating to charity one step at a time.</p>
+                        <p class="mb-5">Our employee accounts allows your team of up to 100 people to participate in common goals.</p>
+                </div>
+                <div class="col-12 col-md-6">
+
+                        <!--Bootstrap Form-->
+                        <form input action="https://formdump.codeinstitute.net" method="POST">
+                            <div class="form-group row">
+                                <label for="company_name" class="col-sm-2 col-form-label">Name:</label>
+                                <div class="col-sm-10">
+                                <input type="text" class="form-control" id="company_name" placeholder="My Company Inc." required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="company_email" class="col-sm-2 col-form-label">Email:</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="company_email" placeholder="mycompany@example.com" required>
+                                </div>
+                            </div>
+                            <fieldset class="form-group">
+                                <div class="row">
+                                    <legend class="col-form-label col-sm-2 pt-0">Team Size:</legend>
+                                        <div class="col-sm-10">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="team_size" id="team_size_2_10" value="2-10" required>
+                                                <label class="form-check-label" for="team_size_2_10">
+                                                2-10
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="team_size" id="team_size_11_50" value="11-50" required>
+                                                <label class="form-check-label" for="team_size_11_50">
+                                                11-50
+                                                </label>
+                                            </div>
+                                            <div class="form-check disabled">
+                                                <input class="form-check-input" type="radio" name="team_size" id="team_size_51+" value="50+" required>
+                                                <label class="form-check-label" for="team_size_51+">
+                                                51+
+                                                </label>
+                                            </div>
+                                        </div>
+                                </div>
+                            </fieldset>
+                            <div class="form-group row">
+                                <div class="col-sm-2"></div>
+                                <div class="col-sm-10">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="email_opt_in">
+                                    <label class="form-check-label" for="email_opt_in" value="yes">
+                                    I would like to receive more information about My Steps Help in my inbox. 
+                                    </label>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="form-group row get-in-touch">
+                                <div class="col-sm-2"></div>
+                                <div class="col-sm-10">
+                                <button type="submit" class="btn btn-red hvr-grow-shadow">Get In Touch</button>
+                                </div>
+                            </div>
+                            </form>
+                    </div>
+                </div>
+                </div>
+            </div>
     <!-- /.Get In Touch -->
 
     <!-- Features -->
     <!-- /.Features -->
 
     <!-- Employer Testimonials -->
-    <div class="container quotes-container container-heading">
+    <div class="container employer-testimonial-container container-heading">
         <h2 class="text-uppercase">Employer Testimonials</h2>
         <hr class="block-divider block-divider-darkgrey">
 
         <div class="row">
             <div class="col-12 col-md-6">
-                <img src="assets/images/anne.jpg" class="img-fluid rounded-circle" alt="Toms Shoes">
+                <img src="assets/images/anne.jpg" class="img-fluid rounded-circle" alt="Anne">
                 <blockquote class="blockquote speech-bubble">
                     <div class="row">
                         <div class="col-1">
@@ -79,7 +160,7 @@
                 </blockquote>
             </div>
             <div class="col-12 col-md-6">
-                <img src="assets/images/stephen.jpg" class="img-fluid rounded-circle" alt="DHL Courrier Services">
+                <img src="assets/images/stephen.jpg" class="img-fluid rounded-circle" alt="Stephen">
                 <blockquote class="blockquote speech-bubble">
                     <div class="row">
                         <div class="col-1">
@@ -97,7 +178,7 @@
 
     <!-- /.Employer Testimonials -->
     <!-- Moving With Us -->
-    <div class="container-fluid charities-container" id="charities-container">
+    <div class="container-fluid employer-container">
         <div class="container">
             <div class="row">
                 <div class="col-12 container-heading">
@@ -105,48 +186,48 @@
                     <hr class="block-divider block-divider-darkgrey">
                 </div>
             </div>
-            <div class="charities">
+            <div class="employers">
                 <div class="row">
-                    <div class="col-4 col-md-3 charity-logo">
+                    <div class="col-4 col-md-3 employer-logo">
                         <a href="https://www.google.com/" target="_blank">
-                            <img src="assets/images/google_logo.jpg" alt="Google" class="charity-image img-fluid rounded-circle hvr-grow-shadow">
+                            <img src="assets/images/google_logo.jpg" alt="Google" class="employer-image img-fluid rounded-circle hvr-grow-shadow">
                         </a>
                     </div>
-                    <div class="col-4 col-md-3 charity-logo">
+                    <div class="col-4 col-md-3 employer-logo">
                         <a href="https://www2.deloitte.com/" target="_blank">
-                            <img src="assets/images/deloitte_logo.jpg" alt="Deloitte" class="charity-image img-fluid rounded-circle hvr-grow-shadow">
+                            <img src="assets/images/deloitte_logo.jpg" alt="Deloitte" class="employer-image img-fluid rounded-circle hvr-grow-shadow">
                         </a>                
                     </div>
-                    <div class="col-4 col-md-3 charity-logo">
+                    <div class="col-4 col-md-3 employer-logo">
                         <a href="https://www.ibm.com/" target="_blank">
-                            <img src="assets/images/ibm_logo.jpg" alt="IBM" class="charity-image img-fluid rounded-circle hvr-grow-shadow">
+                            <img src="assets/images/ibm_logo.jpg" alt="IBM" class="employer-image img-fluid rounded-circle hvr-grow-shadow">
                         </a>                
                     </div>
-                    <div class="col-4 col-md-3 charity-logo">
+                    <div class="col-4 col-md-3 employer-logo">
                         <a href="https://home.kpmg/" target="_blank">
-                            <img src="assets/images/kpmg_logo.jpg" alt="KPMG" class="charity-image img-fluid rounded-circle hvr-grow-shadow">
+                            <img src="assets/images/kpmg_logo.jpg" alt="KPMG" class="employer-image img-fluid rounded-circle hvr-grow-shadow">
                         </a>
                     </div>
                <!-- </div> -->
                <!-- <div class="row"> -->
-                    <div class="col-4 col-md-3 charity-logo">
+                    <div class="col-4 col-md-3 employer-logo">
                         <a href="https://www.randstad.com/" target="_blank">
-                            <img src="assets/images/randstad_logo.jpg" alt="Randstad" class="charity-image img-fluid rounded-circle hvr-grow-shadow">
+                            <img src="assets/images/randstad_logo.jpg" alt="Randstad" class="employer-image img-fluid rounded-circle hvr-grow-shadow">
                         </a>
                     </div>
-                    <div class="col-4 col-md-3 charity-logo">
+                    <div class="col-4 col-md-3 employer-logo">
                         <a href="https://twitter.com/" target="_blank">
-                            <img src="assets/images/twitter_logo.jpg" alt="Twitter" class="charity-image img-fluid rounded-circle hvr-grow-shadow">
+                            <img src="assets/images/twitter_logo.jpg" alt="Twitter" class="employer-image img-fluid rounded-circle hvr-grow-shadow">
                         </a>                
                     </div>
-                    <div class="d-none col-md-3 d-md-inline charity-logo">
+                    <div class="d-none col-md-3 d-md-inline employer-logo">
                         <a href="https://www.workday.com/" target="_blank">
-                            <img src="assets/images/workday_logo.jpg" alt="Workday" class="charity-image img-fluid rounded-circle hvr-grow-shadow">
+                            <img src="assets/images/workday_logo.jpg" alt="Workday" class="employer-image img-fluid rounded-circle hvr-grow-shadow">
                         </a>                
                     </div>
-                    <div class="d-none col-md-3 d-md-inline charity-logo">
+                    <div class="d-none col-md-3 d-md-inline employer-logo">
                         <a href="http://toms.com/" target="_blank">
-                            <img src="assets/images/toms_logo.jpg" alt="TOMS" class="charity-image img-fluid rounded-circle hvr-grow-shadow">
+                            <img src="assets/images/toms_logo.jpg" alt="TOMS" class="employer-image img-fluid rounded-circle hvr-grow-shadow">
                         </a>
                     </div>
                 </div>

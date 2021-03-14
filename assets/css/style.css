@@ -116,15 +116,15 @@ p {
     color: #fafafa;
 }
 
-.quotes-container h2 {
+.employer-testimonial-container h2, .quotes-container h2 {
     color:#EA4C68;
 }
 
-.charities-container {
+.charities-container, .employer-container {
     background-color: #27D6B3;
 }
 
-.charities-container h2 {
+.charities-container h2, .employer-container h2 {
     color: #fafafa;
 }
 
@@ -282,7 +282,7 @@ p {
 
 /*--------------------------------------------Quotes*/
 
-.quotes-container {
+.quotes-container, .employer-testimonial-container {
     margin-bottom: 5%;
 }
 
@@ -322,13 +322,13 @@ p {
 
 /*--------------------------------------------Charities*/
 
-.charities-container {
+.charities-container, .employer-container {
     padding-right: 0;
     padding-left: 0;
     /* margin-bottom: 5%; */
 }
 
-.charities {
+.charities, .employers {
     margin-top: 5%;
     text-align: center;  
 }
@@ -337,11 +337,11 @@ p {
     margin-bottom: 5%;
 } */
 
-.charity-image {
+.charity-image, .employer-image {
     max-width: 70%;
 }
 
-.charity-logo {
+.charity-logo, .employer-logo {
     margin-bottom: 5%;
 }
 
@@ -377,8 +377,9 @@ p {
 
 /*--------------------------------------------Employers*/
 
-
-
+.form-group {
+    margin-bottom: 2vh;
+}
 
 /*--------------------------------------------Footer*/
 
