@@ -1,5 +1,3 @@
-![Image - Logo My Steps Help app](https://dorottyakiss.github.io/my-steps-help-app/assets/images/my_steps_help_circular_logo.png)
-
 # My Steps Help | A website dedicated to a mobile application which can turn your steps into charity donations.
 
 This project is a website which introduces the My Steps Help application. This application (further referred to as “the app”) converts the steps of users into charity donations. They can either do this by signing up with opening a private account or signing into a a team account to which their employer assigns them. 
@@ -81,25 +79,25 @@ Provide consistent experience accessing the website from a desktop or a mobile d
 
 #### First Time Visitor Goals
 
-As a First Time Visitor, I want to access a website having a fast loading time.
-As a First Time Visitor, I want to access a website which adapts to my device’s screen size easily, so that I navigate it easily and efficiently so that I get the information I need while maintaining my engagement.
-As a First Time Visitor, I want to see a website which has a user-friendly layout, good colour contrast and easily readable font types and font sizes.
-As a First Time Visitor, I want the website to provide me with a consistent experience in terms of layout and behaviour. 
-As a First Time  B2C Visitor (runner/walker) of the desktop website, I want to get more information on the My Steps Help app, so that I can decide if I should download it on my mobile.
-As a First Time B2B Visitor (employer) of the desktop and mobile website, I want to get more information on the My Steps Help app, so that I can get in touch to learn about the company plans.
-As a First Time  B2C Visitor (runner/walker)  of the mobile website, I would like to find information on the My Steps Help app, so that I can get redirected to download it on my Android/iOS handset.
+* As a First Time Visitor, I want to access a website having a fast loading time.
+* As a First Time Visitor, I want to access a website which adapts to my device’s screen size easily, so that I navigate it easily and efficiently so that I get the information I need while maintaining my engagement.
+* As a First Time Visitor, I want to see a website which has a user-friendly layout, good colour contrast and easily readable font types and font sizes.
+* As a First Time Visitor, I want the website to provide me with a consistent experience in terms of layout and behaviour. 
+* As a First Time  B2C Visitor (runner/walker) of the desktop website, I want to get more information on the My Steps Help app, so that I can decide if I should download it on my mobile.
+* As a First Time B2B Visitor (employer) of the desktop and mobile website, I want to get more information on the My Steps Help app, so that I can get in touch to learn about the company plans.
+* As a First Time  B2C Visitor (runner/walker)  of the mobile website, I would like to find information on the My Steps Help app, so that I can get redirected to download it on my Android/iOS handset.
 
 #### Returning Visitor Goals
 
-As a Returning Visitor, I want to find information about the charities I can support by using the app. 
-As a Returning Visitor, I want to find an easy way to download the application on both mobile and desktop website.
-As a Returning B2B Visitor (employer), I want to find an easily accessible form to get a quote for a team plan. 
+* As a Returning Visitor, I want to find information about the charities I can support by using the app. 
+* As a Returning Visitor, I want to find an easy way to download the application on both mobile and desktop website.
+* As a Returning B2B Visitor (employer), I want to find an easily accessible form to get a quote for a team plan. 
 
 #### Frequent User Goals
 
-As a Frequent User, I want to find consistent information and efficient navigation to elements. 
-As a Frequent User, I want to find social media links which can lead me to other sources about the application and increase my trust in the company.
-As a Frequent User, I want to find new testimonials on the website to increase my trust in the My Steps Help app. 
+* As a Frequent User, I want to find consistent information and efficient navigation to elements. 
+* As a Frequent User, I want to find social media links which can lead me to other sources about the application and increase my trust in the company.
+* As a Frequent User, I want to find new testimonials on the website to increase my trust in the My Steps Help app. 
 
 
 ### Design
@@ -107,34 +105,36 @@ As a Frequent User, I want to find new testimonials on the website to increase m
 #### Typography
 
 * **Font Families**: Google Fonts Lato -for headings- and Roboto -for paragraphs- were used. 
-Roboto, because it is easy to read and has a friendly, _humanist_ property - according to [Roboto’s designer](https://fonts.google.com/specimen/Roboto?preview.text_type=custom#about). 
-Lato has _warm and stable_ character according to [its designer] (https://fonts.google.com/specimen/Lato?preview.text_type=custom#about) which goes well with the serious yet humanist character of the app. 
+    * Roboto, because it is easy to read and has a friendly, _humanist_ property - according to [Roboto’s designer](https://fonts.google.com/specimen/Roboto?preview.text_type=custom#about). 
+    * Lato has _warm and stable_ character according to [its designer] (https://fonts.google.com/specimen/Lato?preview.text_type=custom#about) which goes well with the serious yet humanist character of the app. 
 
 #### Colour Scheme
 
 * **Font and Background Colours**: Colours were inspired by a deep learning algorithm [colormind.o](http://colormind.io/).
-You can access the colour palette created by [coolors.co] at: (https://coolors.co/fafafa-d0e2e6-20b7be-27d6b3-ea4c68-333b50). 
-Inspired by sources such as [99Designs] (https://99designs.ie/blog/creative-inspiration/psychology-color-web-design/), the choice of greens, such as #20B7BE, #27D6B3 symbolize the humanist and societal, environmental nature of the application, red is balancing it with liveliness and energy - drawing attention to the buttons, it is an ideal choice for sports, having a sense of urgency in it. 
-#FAFAFA, #D0E2E6 and #333B50 give a stable and trustworthy balance to the above-mentioned brand colours. 
+* You can access the colour palette created by [coolors.co](https://coolors.co/fafafa-d0e2e6-20b7be-27d6b3-ea4c68-333b50). 
+* Inspired by sources such as [99Designs](https://99designs.ie/blog/creative-inspiration/psychology-color-web-design/), the choice of greens, such as #20B7BE, #27D6B3 symbolize the humanist and societal, environmental nature of the application, red is balancing it with liveliness and energy - drawing attention to the buttons, it is an ideal choice for sports, having a sense of urgency in it. 
+* #FAFAFA, #D0E2E6 and #333B50 give a stable and trustworthy balance to the above-mentioned brand colours. 
 
-**Website Layout**: intuitive, consistent and efficient. Header and footer contain the menu. Circular images, logos provide consistency, clickable elements are recognizable upon mouse hover.
-The hamburger menu icon replaces the standard navigation bar on tablet and mobile devices. This avoids crowding on smaller screen sizes. 
+#### Website Layout
+* Intuitive, consistent and efficient. Header and footer contain the menu. Circular images, logos provide consistency, clickable elements are recognizable upon mouse hover.
+* The hamburger menu icon replaces the standard navigation bar on tablet and mobile devices. This avoids crowding on smaller screen sizes. 
    
 #### Imagery
 * **Images Chosen**: A prominent background hero image helps users get inspired by the application and understand that it’s a sports and running theme. The images of users, employers give an approachable nature to the product and help with trust in the company. 
 
 ### Wireframes
 
-At the start of the development phase, 12 wireframes (desktop, mobile, iPad tablet) were created for the website. 
-[Balsamiq] (https://balsamiq.com/) was used for creating the wireframes.  The reason the mockups were created at the beginning of the process is to have an overview on the full extent of the website, the design and the project management aspect of the website would be conceptualized. This helped the creator make coding decisions about the required parts of the website. 
-Some minor changes were done to the initial mockups including: 
+* At the start of the development phase, 12 wireframes (desktop, mobile, iPad tablet) were created for the website. 
+* [Balsamiq](https://balsamiq.com/) was used for creating the wireframes.
+* The reason the mockups were created at the beginning of the process is to have an overview on the full extent of the website, the design and the project management aspect of the website would be conceptualized. This helped the creator make coding decisions about the required parts of the website. 
+* Some minor changes were done to the initial mockups including: 
 Form layout on desktop: each team size option comes on a new line for airing the content a bit more. 
-Header menu links - they have been put on the left side to balance the layout a bit more. 
-The logo and the name of the app on the hamburger menu navigation bar - this was put in the middle to give a more prominent brand presence to the product. 
-Wireframes accessible in the [Wireframes directory] (): 
-[Desktop wireframes] ()
-[Mobile wireframes] ()
-[iPad tablet wireframes] ()
+* Header menu links - they have been put on the left side to balance the layout a bit more. 
+* The logo and the name of the app on the hamburger menu navigation bar - this was put in the middle to give a more prominent brand presence to the product. 
+* **Wireframes accessible in the [Wireframes directory](https://github.com/DorottyaKiss/my-steps-help-app/tree/master/wireframes)**: 
+    * [Desktop wireframes](https://github.com/DorottyaKiss/my-steps-help-app/tree/master/wireframes/desktop)
+    * [Mobile wireframes](https://github.com/DorottyaKiss/my-steps-help-app/tree/master/wireframes/mobile)
+    * [Tablet wireframes](https://github.com/DorottyaKiss/my-steps-help-app/tree/master/wireframes/tablet)
 
 ------
 
@@ -152,11 +152,11 @@ Wireframes accessible in the [Wireframes directory] ():
 **Employers Page** - A separate area for B2B customers as they have a separate use case when navigating the site.
  **Get In Touch Section** - A value proposition detailing the reason why B2B customers would find signing up for a team account beneficial. Includes a contact form.
 * **B2B Contact Form** - Efficient, intuitive, fast and responsive. It makes it easy to get a personalized quote for employer accounts.
-**Form Validation** - Accurate information is expected to be entered into the form. This avoids empty data being sent to the support teams. 
-**Employer Testimonials Section** - Responsive quotes from B2B users which outline the reasons why using the application would be beneficial and further increase trust in the company. 
-**Moving With Us Section** - An employers section with links to external sites opening in a new tab increasing trust in the company from a B2B perspective. 
- **Get The App Page** - A responsive section which shows a QR code that users can scan with their mobile to download the app (leading to the creator’s GitHub account as the app doesn’t exist) when people view the website from a desktop or tablet site (≥768px width) and links to the Google Play Store and the Apple Play Store when people access the site on a mobile device.
-**Form Submit Confirmation Page** - Reassures the users that their information was sent and gives a timeline and the expected course of action for B2B users. Site navigation to the other pages is provided, so the experience of navigating the website remains seamless.
+* **Form Validation** - Accurate information is expected to be entered into the form. This avoids empty data being sent to the support teams. 
+* **Employer Testimonials Section** - Responsive quotes from B2B users which outline the reasons why using the application would be beneficial and further increase trust in the company. 
+* **Moving With Us Section** - An employers section with links to external sites opening in a new tab increasing trust in the company from a B2B perspective. 
+* **Get The App Page** - A responsive section which shows a QR code that users can scan with their mobile to download the app (leading to the creator’s GitHub account as the app doesn’t exist) when people view the website from a desktop or tablet site (≥768px width) and links to the Google Play Store and the Apple Play Store when people access the site on a mobile device.
+* **Form Submit Confirmation Page** - Reassures the users that their information was sent and gives a timeline and the expected course of action for B2B users. Site navigation to the other pages is provided, so the experience of navigating the website remains seamless.
 * **External Links** - Opening in a new tab, links to charities and employers.
 
 ### Features Left to Implement
@@ -167,7 +167,7 @@ Wireframes accessible in the [Wireframes directory] ():
 * **Blog Section** - A page which talks about the achievements of the individuals and companies using the app, sharing inspiring stories. 
 * **Km Counter** - A counter which is surfacing the aggregated distance which people have done using the app. 
 * **EUR Raised Counter** - Similar to the km counter, a counter which is surfacing the aggregated donation money which people have raised using the app.
-**Google AMP Pages** - Implementing [this format] (https://developers.google.com/amp) would be recommended by Google to get more clicks and fewer bounces as it is easier and faster to load.
+**Google AMP Pages** - Implementing [this format](https://developers.google.com/amp) would be recommended by Google to get more clicks and fewer bounces as it is easier and faster to load.
  **Charities Slider** - On the Home Page, a slider could be implemented to showcase more charities when more charities will be accessible in the application. 
 
 ------
@@ -189,33 +189,33 @@ Wireframes accessible in the [Wireframes directory] ():
   * Used to display Roboto and Lato font families on the website.
 * [Canva.com](https://www.canva.com)
   * Used for creating the logo of the My Steps Help app.
-[Adobe Photoshop] (https://www.adobe.com/ie/products/photoshop.html)
-Used for image editing and resizing. 
+* [Adobe Photoshop](https://www.adobe.com/ie/products/photoshop.html)
+  * Used for image editing and resizing. 
 * [Colormind.io](http://colormind.io/)
   * Deep learning algorithm used for deciding on the colour palette of the website.
-[Colorspace] (https://mycolor.space/)
+* [Colorspace](https://mycolor.space/)
   * Website used for deciding on the colour palette of the website.
 * [coolors.co](https://coolors.co/fafafa-d0e2e6-20b7be-27d6b3-ea4c68-333b50)
   * Website used for displaying the colour palette of the My Steps Help App website.
 
 ### Frameworks
 
-* [BootStrap](https://getbootstrap.com/)
+* [Bootstrap](https://getbootstrap.com/)
   * Framework used to build a responsive and mobile-first website using efficient code.
 
 ### Testing Tools
 
-*[Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
-  * Used for CSS design and checking the performance of the website on various screen sizes and devices.
-[responsivedesignchecker.com](https://responsivedesignchecker.com/) was used to evaluate the website’s responsiveness on a wide variety of device sizes.
-[Debug CSS Chrome Extension] (https://chrome.google.com/webstore/detail/debug-css/igiofjnckcagmjgdoaakafngegecjnkj) was used to identify CSS issues.
-[Check My Links Chrome Extension] (https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf?hl=en) was used to find broken links on the website.
-[Browser Width Chrome Extension] (https://chrome.google.com/webstore/detail/browser-width/mlnegepkjlccabakompdmbcmdieaideh) was used in the process of responsive design and testing.
-[Page Load Time Chrome Extension] (https://chrome.google.com/webstore/detail/page-load-time/fploionmjgeclbkemipmkogoaohcdbig?hl=en) was used to identify any potential lags loading time. 
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
+ was used for CSS design and checking the performance of the website on various screen sizes and devices.
+* [responsivedesignchecker.com](https://responsivedesignchecker.com/) was used to evaluate the website’s responsiveness on a wide variety of device sizes.
+* [Debug CSS Chrome Extension](https://chrome.google.com/webstore/detail/debug-css/igiofjnckcagmjgdoaakafngegecjnkj) was used to identify CSS issues.
+* [Check My Links Chrome Extension](https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf?hl=en) was used to find broken links on the website.
+* [Browser Width Chrome Extension](https://chrome.google.com/webstore/detail/browser-width/mlnegepkjlccabakompdmbcmdieaideh) was used in the process of responsive design and testing.
+* [Page Load Time Chrome Extension](https://chrome.google.com/webstore/detail/page-load-time/fploionmjgeclbkemipmkogoaohcdbig?hl=en) was used to identify any potential lags loading time. 
 * [Unicorn Revealer Chrome Extension](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) was used to identify overflows while creating the website.
 * [Lighthouse Chrome Extension](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk/related?hl=en) was used to audit performance, accessibility, loading time and find potential areas of improvements.
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validate CSS code. 
-*[W3C Markup Validator](https://validator.w3.org/) was used to validate HTML code.
+* [W3C Markup Validator](https://validator.w3.org/) was used to validate HTML code.
 * [webformatter.com](https://webformatter.com/) was used to format and beautify HTML and CSS code.
 
 ------
@@ -223,54 +223,75 @@ Used for image editing and resizing.
 ## Testing
 
 Multiple browsers were involved in the testing process: Google Chrome, Safari, Firefox, Brave. Performance is consistent.
-[Responsivedesignchecker.com](https://responsivedesignchecker.com/)  and [amiresponsive.com] (http://ami.responsivedesign.is/) were used during the process.
-The website is responsive on both desktop, mobile and tablet.
-The Bootstrap code and CSS media queries are performing as intended.
-There is sufficient space between and on the sides of paragraphs of text, titles are clearly visible. 
-The image of the app mockup is sitting too close to the bottom of the column on large desktops: CSS media query was used to eliminate the top margin.
-Buttons are clearly visible.
-Clickable areas are visible upon hover.
-Images are responsive.
-Loading time is fast.
-The website is easy and intuitive to navigate.
+
+Testing responsiveness by [Responsivedesignchecker.com](https://responsivedesignchecker.com/)  and [amiresponsive.com](http://ami.responsivedesign.is/):
+
+* The website is responsive on both desktop, mobile and tablet.
+* The Bootstrap code and CSS media queries are performing as intended.
+* There is sufficient space between and on the sides of paragraphs of text, titles are clearly visible. 
+* The image of the app mockup is sitting too close to the bottom of the column on large desktops: CSS media query was used to eliminate the top margin.
+* Buttons are clearly visible.
+* Clickable areas are visible upon hover.
+* Images are responsive.
+* Loading time is fast.
+* The website is easy and intuitive to navigate.
+
 HTML validation by [W3C Markup Validation](https://validator.w3.org/):
-No errors found.
-Social media <section> lacks heading. - Changed to a <div>.
-Article lacks heading. - <main> tags were used.
-The <section> tag was used below #footer-social, it was substituted to a <div>, as it was lacking a heading, which is semantically incorrect. 
-Form <legend> error: enveloped “Team Size”, was changed to <label>. 
-CSS validation [W3C Markup Jigsaw Validation](https://validator.w3.org/)
-No errors found.
-No warnings found.
+* No errors found.
+* Social media <section> lacks heading. - Changed to a <div>.
+* Article lacks heading. - <main> tags were used.
+* The <section> tag was used below #footer-social, it was substituted to a <div>, as it was lacking a heading, which is semantically incorrect. 
+* Form <legend> error: enveloped “Team Size”, was changed to <label>. 
+
+CSS validation [W3C Markup Jigsaw Validation](https://validator.w3.org/):
+* No errors found.
+* No warnings found.
 
 ### User Stories
 
- *As a First Time Visitor, I want to access a website having a fast loading time.*
-Photoshop was used to reduce the size of images, no unnecessary js code is running on the website. Testing tools were used, described in the Testing Tools section.
- *As a First Time Visitor, I want to access a website which adapts to my device’s screen size easily, so that I navigate it easily and efficiently so that I get the information I need while maintaining my engagement.*
-Bootstrap was used for efficient code resulting in a consistent experience across device sizes. Testing was also completed to ensure responsiveness. Mobile first design was used from the wireframe phase of the execution of the project. An adaptable navigation bar was used, which switches to a hamburger menu on tablet and mobile screens.
- *As a First Time Visitor, I want to see a website which has an user-friendly layout, good colour contrast and easily readable font types and font sizes.*
-Testing was completed with the use of the Testing Tools for ensuring colour contrast is sufficient while meeting brand requirements. Easily readable clean Google Fonts were used which have a sans-serif font family backup. 
- *As a First Time Visitor, I want the website to provide me with a consistent experience in terms of layout and behaviour.* 
-Clickable elements are visible upon hover, because they grow and cast a shadow. Buttons are vivid in colour, easily noticeable, and invert their colours, grow and cast a shadow, similar to clickable images and links. The page layout is either one, two, or three columns wide depending on screen sizes. Images are circular and sections have the same background colour layout across different pages.
- *As a First Time  B2C Visitor (runner/walker) of the desktop website, I want to get more information on the My Steps Help app, so that I can decide if I should download it on my mobile.*
-The value proposition is outlined in the How It Works section of the website, and the further down the user scrolls, the more information they have to download the app. 
- *As a First Time B2B Visitor (employer) of the desktop and mobile website, I want to get more information on the My Steps Help app, so that I can get in touch to learn about the company plans.*
-A dedicated page is set up for employers, which not only efficiently outline the value proposition of the app, it presents a call to action above the fold, which is to fill out the form. It also presents more and more sources to make the application seem credible, the further down the user scrolls.
- *As a First Time  B2C Visitor (runner/walker)  of the mobile website, I would like to find information on the My Steps Help app, so that I can get redirected to download it on my Android/iOS handset.*
-Vivid buttons are implemented above the fold which redirect B2C users to a dedicated page of the website which link to the app stores. 
- *As a Returning Visitor, I want to find information about the charities I can support by using the app.* 
-In the Charities section (accessible from the top menu), Charities are featured. Users can learn more about them by following the links. 
- *As a Returning Visitor, I want to find an easy way to download the application on both mobile and desktop website.*
-A dedicated Download The App section is available on the Get The App page. On desktop, it features a QR code that users sitting in front of their machine can scan by holding their handset, which will redirect them to the application (this link currently redirects to the creator’s GitHub account, as the app does not exist yet.)
- *As a Returning B2B Visitor (employer), I want to find an easily accessible form to get a quote for a team plan.* 
-A dedicated page has been implemented for Employers, where a responsive form is featured above the fold. Upon filling out the form, it redirects to a Thank You page from which users can continue browsing the website from the top and bottom menus.  
- *As a Frequent User, I want to find consistent information and efficient navigation to elements.*
-The Bootstrap responsive navigation bar has been implemented on all pages, website sections are accessible from the footer as well. Consistent and section-appropriate information is presented on all device sizes.
- *As a Frequent User, I want to find social media links which can lead me to other sources about the application and increase my trust in the company.*
-A dedicated social media section on the footer draws the attention of user to social links. 
- *As a Frequent User, I want to find testimonials on the website to increase my trust in the My Steps Help app.*
-For both B2C and B2C users, there is a dedicated testimonial section to increase trust in the application.  
+ **As a First Time Visitor, I want to access a website having a fast loading time.**
+* Photoshop was used to reduce the size of images, no unnecessary js code is running on the website. Testing tools were used, described in the Testing Tools section.
+
+ **As a First Time Visitor, I want to access a website which adapts to my device’s screen size easily, so that I navigate it easily and efficiently so that I get the information I need while maintaining my engagement.**
+* Bootstrap was used for efficient code resulting in a consistent experience across device sizes. Testing was also completed to ensure responsiveness. Mobile first design was used from the wireframe phase of the execution of the project. An adaptable navigation bar was used, which switches to a hamburger menu on tablet and mobile screens.
+
+ **As a First Time Visitor, I want to see a website which has an user-friendly layout, good colour contrast and easily readable font types and font sizes.**
+* Testing was completed with the use of the Testing Tools for ensuring colour contrast is sufficient while meeting brand requirements. Easily readable clean Google Fonts were used which have a sans-serif font family backup. 
+
+ **As a First Time Visitor, I want the website to provide me with a consistent experience in terms of layout and behaviour.** 
+* Clickable elements are visible upon hover, because they grow and cast a shadow. Buttons are vivid in colour, easily noticeable, and invert their colours, grow and cast a shadow, similar to clickable images and links. The page layout is either one, two, or three columns wide depending on screen sizes. Images are circular and sections have the same background colour layout across different pages.
+
+**As a First Time  B2C Visitor (runner/walker) of the desktop website, I want to get more information on the My Steps Help app, so that I can decide if I should download it on my mobile.**
+
+* The value proposition is outlined in the How It Works section of the website, and the further down the user scrolls, the more information they have to download the app.
+
+ **As a First Time B2B Visitor (employer) of the desktop and mobile website, I want to get more information on the My Steps Help app, so that I can get in touch to learn about the company plans.**
+
+* A dedicated page is set up for employers, which not only efficiently outline the value proposition of the app, it presents a call to action above the fold, which is to fill out the form. It also presents more and more sources to make the application seem credible, the further down the user scrolls.
+
+ **As a First Time  B2C Visitor (runner/walker)  of the mobile website, I would like to find information on the My Steps Help app, so that I can get redirected to download it on my Android/iOS handset.**
+* Vivid buttons are implemented above the fold which redirect B2C users to a dedicated page of the website which link to the app stores. 
+
+**As a Returning Visitor, I want to find information about the charities I can support by using the app.** 
+* In the Charities section (accessible from the top menu), Charities are featured. Users can learn more about them by following the links.
+
+**As a Returning Visitor, I want to find an easy way to download the application on both mobile and desktop website.**
+
+* A dedicated Download The App section is available on the Get The App page. On desktop, it features a QR code that users sitting in front of their machine can scan by holding their handset, which will redirect them to the application (this link currently redirects to the creator’s GitHub account, as the app does not exist yet.)
+ 
+**As a Returning B2B Visitor (employer), I want to find an easily accessible form to get a quote for a team plan.**
+
+* A dedicated page has been implemented for Employers, where a responsive form is featured above the fold. Upon filling out the form, it redirects to a Thank You page from which users can continue browsing the website from the top and bottom menus.  
+
+ **As a Frequent User, I want to find consistent information and efficient navigation to elements.**
+
+* The Bootstrap responsive navigation bar has been implemented on all pages, website sections are accessible from the footer as well. Consistent and section-appropriate information is presented on all device sizes.
+ 
+**As a Frequent User, I want to find social media links which can lead me to other sources about the application and increase my trust in the company.**
+* A dedicated social media section on the footer draws the attention of user to social links. 
+ 
+**As a Frequent User, I want to find testimonials on the website to increase my trust in the My Steps Help app.**
+* For both B2C and B2C users, there is a dedicated testimonial section to increase trust in the application.  
 
 ### Test Scenarios
 
@@ -321,28 +342,26 @@ Step by step processes of testing elements on the website:
    8. Get In Touch submit button in form on Employers page: 
 
       1. Filled out the form first leaving the name, then the email, then the team size parts empty.
-      2. Error messages appeared respectively prompting the visitor to fill out all areas.
-	 3. Button was clicked on.
+      2. Error messages appeared respectively prompting the visitor to fill out all areas
+      3. Button was clicked on.
       4. Form was submitted and redirected to the Thank You page.
 
    9. QR code on Get The App desktop and tablet page: 
 
       1. QR code was hovered upon on a desktop.
       2. Clicked on the QR code.
-	 3. Link redirected to the GitHub account of the creator. (Expected behaviour, because the application is fictitious.)
- 
+      3. Link redirected to the GitHub account of the creator. (Expected behaviour, because the application is fictitious.)
 
    10. Google Play and Apple App Store links on Get The App mobile page: 
-
-      1. Google Play and Apple App Store links were hovered upon on a desktop.
-      2. Clicked on the Google Play and Apple App Store links.
-	 3. Links redirected to the GitHub account of the creator. (Expected behaviour, because the application is fictitious.)
+        1. Google Play and Apple App Store links were hovered upon on a desktop.
+        2. Clicked on the Google Play and Apple App Store links.
+        3. Links redirected to the GitHub account of the creator. (Expected behaviour, because the application is fictitious.)
 
 2. **Website Responsiveness**:
    
  The Bootstrap framework was used to make sure the parts of the website remain responsive across all devices.  
 
-   Bootstrap was used in order to achieve responsiveness in:
+* Bootstrap was used in order to achieve responsiveness in:
 
     * **Navigation Bar** - Hamburger menu appears on tablet and mobile screen sizes.
     * **How It Works section** - reorders the desktop 3-row layout into 2-row layout and the image below, as well as a single-row layout on mobile.
@@ -352,12 +371,11 @@ Step by step processes of testing elements on the website:
 **Download the App section** - with a combination of media queries and Bootstrap, on desktops and tablets, users are redirected to a QR code, on mobile devices, the links to the Play Stores are shown. 
 	* **Get In Touch section** - Transitions from a single-column layout on desktop to a double-column layout on mobile devices.
 
-
 ### Bugs
 
 Bugs encountered and resolution:
   * **The app mockup image in the How It Works section was placed to the bottom of the column on large desktop devices** - Contacted tutor support of the Code Institute who suggested using a media query on top of the Bootstrap grid system, and suggested to take out “only” from the CSS code, as this is likely causing the anomalous behaviour even upon implementing a media query. Removing the “only” should only affect older browsers but it seemed that it affecting all browsers in this case.
-  * ** Form <legend> error enveloped “Team Size”**- Third party code related issue discovered by the HTML validator. Changed <legend> to <label>.
+  * **Form <legend> error enveloped “Team Size”** - Third party code related issue discovered by the HTML validator. Changed <legend> to <label>.
 
 ---
 
@@ -367,15 +385,14 @@ Bugs encountered and resolution:
 
 Deployment can be done from [its GitHub repository](https://github.com/DorottyaKiss/my-steps-help-app) by the following steps:
 
-1. On [GitHub.com] (https://github.com/), navigate to the [repository of the project] (https://github.com/DorottyaKiss/my-steps-help-app).
+1. On [GitHub.com](https://github.com/), navigate to the [repository of the project](https://github.com/DorottyaKiss/my-steps-help-app).
 2. Click on **Settings**, under the repository name.
 3. Scroll to the **GitHub Pages** section.
 4. Navigate to **Source**, click on the drop-down titled **None**. Select **Master Branch**.
 5. By selecting **Master Branch**, the page is refreshed, the site is deployed.
-6. A green message appears saying `Your site is ready to be published at the link.`
+6. A green message appears saying **"Your site is ready to be published at the link"**.
 
-Further information on deploying websites on GitHub.com, 
-[visit this link](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+Further information on deploying websites on GitHub.com, [visit this link](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
 ### Local Cloning and Deployment
 
@@ -386,7 +403,7 @@ Clone this website from GitHub and deploy it on your local machine by following 
 3. Navigate to the **Clone with HTTPs** section. Copy the clone URL of the repository.
 4. Open the Terminal on your machine.
 5. Change the current working directory to the location you want the cloned directory to be created.
-6. Type the command `git clone`, and paste the URL you copied in Step 3. `git clone https://github.com/DorottyaKiss/my-steps-help-app.git`
+6. Type the command "git clone", and paste the URL you copied in Step 3. "**git clone https://github.com/DorottyaKiss/my-steps-help-app.git**"
 7. Press **Enter**. Your local clone will be created.
 
 Further information and troubleshooting on cloning a repository from GitHub is available
@@ -398,46 +415,47 @@ Further information and troubleshooting on cloning a repository from GitHub is a
 
 ### Content
 
-* The content used on the website was inspired from the concept of  the websites: [charitymiles](https://charitymiles.org), 
-[strava](https://www.strava.com).
+* The content used on the website was inspired from the concept of  the websites: [charitymiles](https://charitymiles.org), [strava](https://www.strava.com).
 * The My Steps App logo was designed using the website [Canva](https://www.canva.com/), a visual design creator site.
-For text and layout of the page **index.html**, I got inspiration by the website [charitymiles](https://charitymiles.org). 
-Sections How It Works and Get In Touch, the value proposition was inspired by [charitymiles](https://charitymiles.org).
- The Jumbotron and the callout section were inspired by the Code Institute project called Whiskey Drop. 
-The callout section was inspired by [csstricks.com](https://css-tricks.com/perfect-full-page-background-image/)
-The speech bubbles were created by the help of [Bubbly] (https://projects.verou.me/bubbly/). 
-Bootstrap was used for creating the responsive navigation bar. 
-The How It Works section was inspired by the Code Institute project [Love Running] (https://github.com/DorottyaKiss/love-running) layout and [charitymiles](https://charitymiles.org) layout and content.
-The bootstrap footer is a modified version of [mdbootstrap.com] (https://mdbootstrap.com/docs/standard/navigation/footer/). 
-The mouseover hover and grow effect was created by [hover.css] (https://ianlunn.github.io/Hover/)
-The cursor selector is a modified CSS code of [css-tricks.com] (https://css-tricks.com/overriding-the-default-text-selection-color-with-css/)
-
+* For text and layout of the page **index.html**, I got inspiration by the website [charitymiles](https://charitymiles.org). 
+* Sections How It Works and Get In Touch, the value proposition was inspired by [charitymiles](https://charitymiles.org).
+* The Jumbotron and the callout section were inspired by the Code Institute project called Whiskey Drop. 
+* The callout section was inspired by [csstricks.com](https://css-tricks.com/perfect-full-page-background-image/)
+* The speech bubbles were created by the help of [Bubbly](https://projects.verou.me/bubbly/). 
+* Bootstrap was used for creating the responsive navigation bar. 
+* The How It Works section was inspired by the Code Institute project [Love Running](https://github.com/DorottyaKiss/love-running) layout and [charitymiles](https://charitymiles.org) layout and content.
+* The bootstrap footer is a modified version of [mdbootstrap.com](https://mdbootstrap.com/docs/standard/navigation/footer/). 
+* The mouseover hover and grow effect was created by [hover.css](https://ianlunn.github.io/Hover/)
+* The cursor selector is a modified CSS code of [css-tricks.com](https://css-tricks.com/overriding-the-default-text-selection-color-with-css/)
 
 ### Media
 
-* The photos used in this site were obtained from:
-  * [Pexels - Hero image] (https://www.pexels.com/photo/woman-running-on-pathway-1872786/)
+The photos used in this site were obtained from:
+* [Pexels - Hero image](https://www.pexels.com/photo/woman-running-on-pathway-1872786/)
 * [Pexels - Richard](https://www.pexels.com/photo/adult-beard-boy-casual-220453/)
-[Pexels - Emanuele] (https://www.pexels.com/photo/man-in-red-crew-neck-sweatshirt-photography-941693/)
-[Pexels - Anne] (https://www.pexels.com/photo/laughing-businesswoman-working-in-office-with-laptop-3756679/) 
-[Pexels - Stephen] (https://www.pexels.com/photo/men-s-wearing-black-suit-jacket-and-pants-937481/) 
-[Pexels - Runner Shoes] (https://www.pexels.com/photo/person-foot-on-bench-7432/) 
-[Wikipedia - Google logo] (https://en.wikipedia.org/wiki/Google)
-[Wikipedia - Deloitte logo] (https://en.wikipedia.org/wiki/Deloitte)
-[Wikipedia - IBM logo] (https://en.wikipedia.org/wiki/IBM)
-[Wikipedia - KPMG logo] (https://en.wikipedia.org/wiki/KPMG)
-[Randstad.com - Randstad logo] (https://www.randstad.com/press/downloads/)
-[Seeklogo - Twitter logo] (https://seeklogo.com/vector-logo/305546/twitter)
-[Wikipedia - Workday logo] (https://en.wikipedia.org/wiki/File:Workday_Logo.png)
-[Logos-Download - Toms logo] (https://logos-download.com/48953-toms-shoes-logo-download.html)
-[Wikipedia - Amnesty International logo] (https://en.wikipedia.org/wiki/Amnesty_International)
-[Clean PNG - Coder Dojo logo] (https://www.cleanpng.com/png-coderdojo-kc-sporting-kansas-city-stowers-institut-4166959/)
-[Wikipedia - Cystic Fibrosis Foundation] (https://en.wikipedia.org/wiki/Cystic_Fibrosis_Foundation)
-[directrelief.com - Direct Relief logo] (https://www.directrelief.org/media/)
-[Wikipedia - Doctors Without Borders logo] (https://en.wikipedia.org/wiki/M%C3%A9decins_Sans_Fronti%C3%A8res)
-[Wikipedia - Save The Children logo] (https://en.wikipedia.org/wiki/Save_the_Children)
-[Wikipedia - UNICEF logo] (https://en.wikipedia.org/wiki/UNICEF)
-[Wikipedia - Oxfam logo] (https://en.wikipedia.org/wiki/Oxfam)
+* [Pexels - Emanuele](https://www.pexels.com/photo/man-in-red-crew-neck-sweatshirt-photography-941693/)
+* [Pexels - Anne](https://www.pexels.com/photo/laughing-businesswoman-working-in-office-with-laptop-3756679/) 
+* [Pexels - Stephen](https://www.pexels.com/photo/men-s-wearing-black-suit-jacket-and-pants-937481/) 
+* [Pexels - Runner Shoes](https://www.pexels.com/photo/person-foot-on-bench-7432/)
+
+Logos:
+* [Wikipedia - Google logo](https://en.wikipedia.org/wiki/Google)
+* [Wikipedia - Deloitte logo](https://en.wikipedia.org/wiki/Deloitte)
+* [Wikipedia - IBM logo](https://en.wikipedia.org/wiki/IBM)
+* [Wikipedia - KPMG logo](https://en.wikipedia.org/wiki/KPMG)
+* [Randstad.com - Randstad logo](https://www.randstad.com/press/downloads/)
+* [Seeklogo - Twitter logo](https://seeklogo.com/vector-logo/305546/twitter)
+* [Wikipedia - Workday logo](https://en.wikipedia.org/wiki/File:Workday_Logo.png)
+* [Logos-Download - Toms logo](https://logos-download.com/48953-toms-shoes-logo-download.html)
+* [Wikipedia - Amnesty International logo](https://en.wikipedia.org/wiki/Amnesty_International)
+* [Clean PNG - Coder Dojo logo](https://www.cleanpng.com/png-coderdojo-kc-sporting-kansas-city-stowers-institut-4166959/)
+* [Wikipedia - Cystic Fibrosis Foundation](https://en.wikipedia.org/wiki/Cystic_Fibrosis_Foundation)
+* [directrelief.com - Direct Relief logo](https://www.directrelief.org/media/)
+* [Wikipedia - Doctors Without Borders logo](https://en.wikipedia.org/wiki/M%C3%A9decins_Sans_Fronti%C3%A8res)
+* [Wikipedia - Save The Children logo](https://en.wikipedia.org/wiki/Save_the_Children)
+* [Wikipedia - UNICEF logo](https://en.wikipedia.org/wiki/UNICEF)
+* [Wikipedia - Oxfam logo](https://en.wikipedia.org/wiki/Oxfam)
+
 The app mockup used in this site was created by:
   * [Balsamiq Wireframes](https://balsamiq.com/)
 
@@ -448,9 +466,9 @@ The app mockup used in this site was created by:
 * The My Steps App logo was designed using the website [Canva](https://www.canva.com/), a visual design creator site.
 For text and layout of the page **index.html**, I got inspiration by the website [charitymiles](https://charitymiles.org). 
 Sections How It Works and Get In Touch, the value proposition was inspired by [charitymiles](https://charitymiles.org).
-* I used the websites [w3schools](www.w3schools.com), [w3schools](www.w3schools.com), [bootstrap](getbootstrap.com), [stackoverflow](stackoverflow.com), [W3C](https://www.w3.org/) was used to. 
+* The websites [w3schools](www.w3schools.com), [w3schools](www.w3schools.com), [bootstrap](getbootstrap.com), [stackoverflow](stackoverflow.com), [W3C](https://www.w3.org/) were used in the making of this project. 
 * The creator would like to express gratitude towards her mentor [Dick Vlaanderen](https://www.linkedin.com/in/dick-vlaanderen/) and the members of the Code Institute tutor programme for their guidance and technical expertise.     
 
 ### Disclaimer
 
-The product behind this website is fictional. All features, mockups, logo, testimonials, value propositions are are the products of the author's imagination. Any resemblance to existing products, events, logos and names is purely coincidental. All works published on [**on the website**] (https://dorottyakiss.github.io/my-steps-help-app/) is published as part of the Code Institute Full Stack Developer curriculum. 
+The product behind this website is fictional. All features, mockups, logo, testimonials, value propositions are are the products of the author's imagination. Any resemblance to existing products, events, logos and names is purely coincidental. All works published [**on the website**](https://dorottyakiss.github.io/my-steps-help-app/) is published as part of the Code Institute Full Stack Developer curriculum. 
