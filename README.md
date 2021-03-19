@@ -106,7 +106,7 @@ Provide consistent experience accessing the website from a desktop or a mobile d
 
 * **Font Families**: Google Fonts Lato -for headings- and Roboto -for paragraphs- were used. 
     * Roboto, because it is easy to read and has a friendly, _humanist_ property - according to [Roboto’s designer](https://fonts.google.com/specimen/Roboto?preview.text_type=custom#about). 
-    * Lato has _warm and stable_ character according to [its designer] (https://fonts.google.com/specimen/Lato?preview.text_type=custom#about) which goes well with the serious yet humanist character of the app. 
+    * Lato has _warm and stable_ character according to [its designer](https://fonts.google.com/specimen/Lato?preview.text_type=custom#about) which goes well with the serious yet humanist character of the app. 
 
 #### Colour Scheme
 
