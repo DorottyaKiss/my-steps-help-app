@@ -365,6 +365,7 @@ h3 {
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 5%;
+    height: 87vh;
 }
 
 @media only screen and (max-width: 768px) {
